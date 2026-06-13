@@ -21,14 +21,16 @@ const DropdownNav: React.FC = () => {
     return (
         <div ref={dropdownRef} className={style.dropdown}>
             <div className={style.link} onClick={toggleDropdown}>
-                커뮤니티 <span className={style.arrow}>{isOpen ? '👍' : '👎'}</span>
+                Etc <span className={style.arrow}>{isOpen ? '👍' : '👎'}</span>
             </div>
             {
                 isOpen && (<div className={style.dropdownContent}>
                     <NavLink to="/Fetchthen1" onClick={closeDropdown} className={linkClass}>FetchThen1</NavLink>
                     <NavLink to="/userDemo" onClick={closeDropdown} className={linkClass}>UseDemo</NavLink>
-                    <NavLink to="/DiaryFetch" onClick={closeDropdown} className={linkClass}>DiaryFetch</NavLink>
-                    <NavLink to="/Memo" onClick={closeDropdown} className={linkClass}>Memo</NavLink>
+                    {/* <NavLink to="/DiaryFetch" onClick={closeDropdown} className={linkClass}>DiaryFetch</NavLink> */}
+                    <NavLink to="/getaxios" onClick={closeDropdown} className={linkClass}>GetAxios_0613</NavLink>
+                    <NavLink to="/postaxios" onClick={closeDropdown} className={linkClass}>PostAxios_0613</NavLink>
+                    <NavLink to="/community/memolist" onClick={closeDropdown} className={linkClass}>MemoList</NavLink>
                     <NavLink to="/FreeBoard" onClick={closeDropdown} className={linkClass}>FreeBoard</NavLink>
                 </div>)
             }

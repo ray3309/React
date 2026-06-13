@@ -28,10 +28,10 @@ const Navbar: React.FC = () => {
             <NavLink to="/Gallery" className={commLinkClass}> 갤러리 </NavLink>
             <NavLink to="/Chart" className={commLinkClass}> 차트 </NavLink>
             
-            {/* <NavLink to="/Community" className={commLinkClass}> 커뮤니티 </NavLink> */}
-            <DropdownNav />
+            {/* <NavLink to="/Community" className={commLinkClass}> 커뮤니티 </NavLink> */}            
 
             <NavLink to="/Diary" className={commLinkClass}> 다이어리 </NavLink>
+            <DropdownNav />
         </nav>
     )
 }
