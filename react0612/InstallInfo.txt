@@ -1,0 +1,4 @@
+
+
+//react-pageflip -- 다이어리에서 사용할 외부 모듈
+yarn add react-pageflip

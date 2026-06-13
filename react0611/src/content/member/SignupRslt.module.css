@@ -1,0 +1,28 @@
+table {
+    margin-top: 10px;
+    display: flexbox;
+    justify-content: center;
+    gap: 20px; 
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+th {
+    text-align: center;
+    background-color: seashell;
+    border: 1px solid black;
+}
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+    background-color: skyblue;
+}
+
+tr:nth-child(even)  {
+    background-color: orange;
+}

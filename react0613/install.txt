@@ -1,0 +1,3 @@
+yarn add react-slick
+yarn add slick-carousel
+yarn add --dev @types/react-slick
