@@ -8,3 +8,5 @@ declare module '*.module.css' {
 
 //singup.module.css 타입으로 모듈이 인식 되도록 선언
 //declare module 'singup.'
+
+declare module 'slick-carousel/slick/*.css'
