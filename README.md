@@ -17,6 +17,6 @@
 
 
 [React0613]
-yarn add react-slick
-yarn add slick-carousel
-yarn add --dev @types/react-slick
+yarn add -W react-slick
+yarn add -W slick-carousel
+yarn add -W --dev @types/react-slick
